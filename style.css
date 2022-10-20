@@ -23,3 +23,27 @@
   border-radius: 64px;
   transition: background-color 200ms cubic-bezier(0.446, 0.06, 0.55, 0.99);
 }
+
+.toggle:before {
+  content: "Sunny";
+  position: absolute;
+  left: -50px;
+  top: 20px;
+  font-size: 20px;
+}
+
+.toggle::after {
+    content: "Dark";
+    position: absolute;
+    right: -50px;
+    top: 20px;
+    font-size: 20px;
+    color:#749ed7;
+}
+
+
+
+
+
+}
+
